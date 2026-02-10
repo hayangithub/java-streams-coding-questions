@@ -20,9 +20,9 @@ class SortObjectsByFieldTest {
         );
 
         List<Employee> expected = Arrays.asList(
-                Employee.builder().name("Alice").age(30).build(),
                 Employee.builder().name("Bob").age(25).build(),
-                Employee.builder().name("Charlie").age(28).build()
+                Employee.builder().name("Charlie").age(28).build(),
+                Employee.builder().name("Alice").age(30).build()
         );
 
         List<Employee> result = sortByAge(employees);
@@ -35,7 +35,7 @@ class SortObjectsByFieldTest {
 
     @Test
     void testSortByName() {
-        List<SortObjectsByField.Employee> employees = Arrays.asList(
+        List<Employee> employees = Arrays.asList(
                 Employee.builder().name("Alice").age(30).build(),
                 Employee.builder().name("Bob").age(25).build(),
                 Employee.builder().name("Charlie").age(28).build()

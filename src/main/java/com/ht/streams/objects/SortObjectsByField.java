@@ -1,5 +1,7 @@
 package com.ht.streams.objects;
 
+import com.ht.streams.models.Employee;
+
 import java.util.*;
 import java.util.stream.Collectors;
 
@@ -20,32 +22,6 @@ import java.util.stream.Collectors;
  * - Space: O(n) for the new list
  */
 public class SortObjectsByField {
-
-    /**
-     * Employee class with name and age.
-     */
-    public static class Employee {
-        private String name;
-        private int age;
-
-        public Employee(String name, int age) {
-            this.name = name;
-            this.age = age;
-        }
-
-        public String getName() {
-            return name;
-        }
-
-        public int getAge() {
-            return age;
-        }
-
-        @Override
-        public String toString() {
-            return name + "(" + age + ")";
-        }
-    }
 
     /**
      * Sorts the list of employees by age in ascending order.
@@ -73,9 +49,9 @@ public class SortObjectsByField {
 
     public static void main(String[] args) {
         List<Employee> employees = Arrays.asList(
-                new Employee("Alice", 30),
-                new Employee("Bob", 25),
-                new Employee("Charlie", 28)
+                Employee.builder().name("Alice").age(30).build(),
+                Employee.builder().name("Bob").age(25).build(),
+                Employee.builder().name("Charlie").age(28).build()
         );
 
         System.out.println("Sort by Age: " + sortByAge(employees));
