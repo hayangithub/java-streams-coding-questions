@@ -13,7 +13,7 @@ This repository contains **must-know Java Stream API coding questions** with cle
 ```
 java-streams-coding-questions/
 │
-├── src/main/java/
+├── src/java/com/ht/streams
 │   ├── strings/
 │   ├── lists/
 │   ├── maps/
@@ -21,14 +21,14 @@ java-streams-coding-questions/
 │   └── advanced/
 │
 ├── README.md
-└── pom.xml / build.gradle (optional)
+└── pom.xml
 ```
 
 Each package contains:
 
 * Problem description
 * Stream-based solution
-* Alternative approaches (if useful)
+* Alternative approaches (To be added) 
 * Time & space complexity notes
 
 ---
