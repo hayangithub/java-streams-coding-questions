@@ -3,7 +3,7 @@ package com.ht.streams.strings;
 import java.util.stream.Collectors;
 
 /**
- * Problem: Reverse a string using Java Streams.
+ * Problem (10): Reverse a string using Java Streams.
  *
  * Approach:
  * 1. Convert the string to a stream of characters using chars().

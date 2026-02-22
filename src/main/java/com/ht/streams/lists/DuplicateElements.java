@@ -4,7 +4,7 @@ import java.util.*;
 import java.util.stream.Collectors;
 
 /**
- * Problem: Identify duplicate elements in a list using Java Streams.
+ * Problem (3): Identify duplicate elements in a list using Java Streams.
  *
  * Approach:
  * 1. Use stream() on the list.
@@ -28,7 +28,7 @@ public class DuplicateElements {
      * @param <T>  type of list elements
      * @return list of duplicates (no particular order)
      */
-    public static <T> List<T> findDuplicates(List<T> list) {
+    public static <T> List<T> findDuplicates1(List<T> list) {
         return list.stream()
                 .collect(Collectors.groupingBy(e -> e, LinkedHashMap::new, Collectors.counting()))
                 .entrySet()
@@ -36,6 +36,17 @@ public class DuplicateElements {
                 .filter(entry -> entry.getValue() > 1)
                 .map(Map.Entry::getKey)
                 .collect(Collectors.toList());
+    }
+
+    public static <T> List<T> findDuplicates(List<T> list) {
+        return list.stream()
+                .collect(Collectors.groupingBy(e-> e,
+                        LinkedHashMap::new,
+                        Collectors.counting()))
+                .entrySet().stream()
+                .filter(e->e.getValue() > 2)
+                .map(Map.Entry::getKey)
+                .toList();
     }
 
     public static void main(String[] args) {

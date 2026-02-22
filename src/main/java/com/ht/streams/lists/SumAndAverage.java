@@ -4,7 +4,7 @@ import java.util.List;
 import java.util.OptionalDouble;
 
 /**
- * Problem: Calculate the sum and average of a list of numbers using Java Streams.
+ * Problem (7): Calculate the sum and average of a list of numbers using Java Streams.
  *
  * Approach:
  * 1. Use stream() on the list.

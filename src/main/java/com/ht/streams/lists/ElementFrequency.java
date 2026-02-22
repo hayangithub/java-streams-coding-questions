@@ -4,7 +4,7 @@ import java.util.*;
 import java.util.stream.Collectors;
 
 /**
- * Problem: Find the frequency of each element in a list using Java Streams.
+ * Problem (8): Find the frequency of each element in a list using Java Streams.
  *
  * Approach:
  * 1. Use stream() on the list.

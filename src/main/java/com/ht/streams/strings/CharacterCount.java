@@ -4,7 +4,7 @@ import java.util.*;
 import java.util.stream.Collectors;
 
 /**
- * Problem: Count occurrences of each character in a string using Java Streams.
+ * Problem (1): Count occurrences of each character in a string using Java Streams.
  *
  * Approach:
  * 1. Convert the string into a stream of characters using chars().

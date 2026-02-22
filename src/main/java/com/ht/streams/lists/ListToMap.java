@@ -6,7 +6,7 @@ import java.util.*;
 import java.util.stream.Collectors;
 
 /**
- * Problem: Convert a list of objects into a Map using Java Streams.
+ * Problem (6): Convert a list of objects into a Map using Java Streams.
  *
  * Approach:
  * 1. Use stream() on the list.

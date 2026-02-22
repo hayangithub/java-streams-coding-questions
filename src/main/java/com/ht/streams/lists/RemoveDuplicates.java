@@ -4,7 +4,7 @@ import java.util.*;
 import java.util.stream.Collectors;
 
 /**
- * Problem: Remove duplicates from a list using Java Streams.
+ * Problem (9): Remove duplicates from a list using Java Streams.
  *
  * Approach:
  * 1. Use stream() on the list.

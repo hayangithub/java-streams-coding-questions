@@ -4,7 +4,7 @@ import java.util.*;
 import java.util.stream.Collectors;
 
 /**
- * Problem: Find the maximum and minimum values in a list using Java Streams.
+ * Problem (4): Find the maximum and minimum values in a list using Java Streams.
  *
  * Approach:
  * 1. Use stream() on the list.

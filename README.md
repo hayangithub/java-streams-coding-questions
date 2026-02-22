@@ -43,6 +43,9 @@ Each package contains:
 
 **Use Case:** Frequency analysis, text processing.
 
+**Location:**
+Package `com.ht.streams.strings`
+Class: `CharacterCount`
 ---
 
 ## 2. Find the First Non-Repeated Character in a String
@@ -53,6 +56,10 @@ Each package contains:
 
 **Use Case:** Interview classics, string parsing.
 
+**Location:**
+
+Package `com.ht.streams.strings`
+Class: `FirstNonRepeatedChar`
 ---
 
 ## 3. Identify Duplicate Elements in a List
@@ -63,6 +70,11 @@ Each package contains:
 
 **Use Case:** Data cleaning and validation.
 
+**Location:**
+
+Package `com.ht.streams.lists`
+Class: `DuplicateElements`
+
 ---
 
 ## 4. Find Maximum and Minimum Values Using Streams
@@ -70,6 +82,11 @@ Each package contains:
 **Goal:** Get max and min values from a collection.
 
 **Key Concepts:** `max()`, `min()`, `Comparator`.
+
+**Location:**
+
+Package `com.ht.streams.lists`
+Class: `MaxMinValues`
 
 ---
 
@@ -81,6 +98,11 @@ Each package contains:
 
 **Use Case:** Business data ordering.
 
+**Location:**
+
+Package `com.ht.streams.objects`
+Class: `SortObjectsByField`
+
 ---
 
 ## 6. Convert a List into a Map
@@ -91,6 +113,11 @@ Each package contains:
 
 **Use Case:** Fast lookups.
 
+**Location:**
+
+Package `com.ht.streams.lists`
+Class: `ListToMap`
+
 ---
 
 ## 7. Calculate Sum and Average of Numbers
@@ -99,6 +126,10 @@ Each package contains:
 
 **Key Concepts:** `mapToInt`, `sum`, `average`, `Collectors.summarizingInt()`.
 
+**Location:**
+
+Package `com.ht.streams.lists`  
+Class: `SumAndAverage`
 ---
 
 ## 8. Find Frequency of Each Element in a List
@@ -106,6 +137,12 @@ Each package contains:
 **Goal:** Count occurrences of list elements.
 
 **Key Concepts:** `groupingBy`, `counting()`.
+
+**Location:**
+
+Package `com.ht.streams.lists`  
+Class: `ElementFrequency`
+
 
 ---
 
@@ -115,6 +152,12 @@ Each package contains:
 
 **Key Concepts:** `distinct()`.
 
+**Location:**
+
+Package `com.ht.streams.lists`  
+Class: `RemoveDuplicates`
+
+
 ---
 
 ## 10. Reverse a String Using Stream Operations
@@ -122,6 +165,11 @@ Each package contains:
 **Goal:** Reverse characters using Streams.
 
 **Key Concepts:** `collect`, `StringBuilder`, `reduce()`.
+
+**Location:**
+
+Package `com.ht.streams.strings`
+Class: `ReverseStringStream`
 
 ---
 
@@ -131,6 +179,10 @@ Each package contains:
 
 **Key Concepts:** `sorted()`, `distinct()`, `skip()`.
 
+**Location:**
+
+Package `com.ht.streams.lists`  
+Class: `SecondHighestNumber`
 ---
 
 ## 12. Check if Two Strings Are Anagrams Using Streams
@@ -138,6 +190,11 @@ Each package contains:
 **Goal:** Determine if two strings contain the same characters.
 
 **Key Concepts:** `sorted()`, `Arrays.equals()`.
+
+**Location:**
+
+Package `com.ht.streams.strings`
+Class: `AnagramCheck`
 
 ---
 
@@ -149,6 +206,10 @@ Each package contains:
 
 **Use Case:** Reporting and analytics.
 
+**Location:**
+
+Package `com.ht.streams.objects`  
+Class: `GroupByDepartment`
 ---
 
 ## 14. Partition a List into Even and Odd Numbers
@@ -157,6 +218,10 @@ Each package contains:
 
 **Key Concepts:** `Collectors.partitioningBy()`.
 
+**Location:**
+
+Package `com.ht.streams.lists`  
+Class: `PartitionList`
 ---
 
 ## 15. Find the Longest String in a List
@@ -165,6 +230,10 @@ Each package contains:
 
 **Key Concepts:** `max(Comparator.comparingInt(String::length))`.
 
+**Location:**
+
+Package `com.ht.streams.lists`  
+Class: `LongestStringList`
 ---
 
 ## 16. Check if All Elements Match a Condition
@@ -173,6 +242,10 @@ Each package contains:
 
 **Key Concepts:** `allMatch()`.
 
+**Location:**
+
+Package `com.ht.streams.lists`  
+Class: `AllMatchCondition`
 ---
 
 ## 17. Find Any / First Element from a Stream
@@ -181,6 +254,10 @@ Each package contains:
 
 **Key Concepts:** `findFirst()`, `findAny()`.
 
+**Location:**
+
+Package `com.ht.streams.lists`  
+Class: `FindFirstAndAny`
 ---
 
 ## 18. Convert a Stream Back to List or Set
@@ -189,6 +266,10 @@ Each package contains:
 
 **Key Concepts:** `Collectors.toList()`, `Collectors.toSet()`.
 
+**Location:**
+
+Package `com.ht.streams.lists`  
+Class: `CollectToListOrSet`
 ---
 
 ## 19. Join a List of Strings Using a Delimiter
@@ -196,6 +277,11 @@ Each package contains:
 **Goal:** Create a single string from list values.
 
 **Key Concepts:** `Collectors.joining()`.
+
+**Location:**
+
+Package `com.ht.streams.strings`
+Class: `JoinToString`
 
 ---
 
@@ -205,6 +291,8 @@ Each package contains:
 
 **Key Concepts:** `flatMap()`.
 
+Package: `com.ht.streams.lists`
+Class: `FlattenListUsingFlatMap`
 ---
 
 # 🎯 Why Learn These Problems?

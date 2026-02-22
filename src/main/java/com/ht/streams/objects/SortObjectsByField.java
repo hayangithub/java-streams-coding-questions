@@ -6,7 +6,7 @@ import java.util.*;
 import java.util.stream.Collectors;
 
 /**
- * Problem: Sort a list of objects based on a specific field using Java Streams.
+ * Problem (5): Sort a list of objects based on a specific field using Java Streams.
  *
  * Approach:
  * 1. Use stream() on the list.

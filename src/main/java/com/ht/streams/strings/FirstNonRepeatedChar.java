@@ -5,7 +5,7 @@ import java.util.Map;
 import java.util.Optional;
 
 /**
- * Problem: Find the first non-repeated character in a string using Java Streams.
+ * Problem (2): Find the first non-repeated character in a string using Java Streams.
  *
  * Approach:
  * 1. Convert the string to a stream of characters using chars().
