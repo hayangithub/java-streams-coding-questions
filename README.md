@@ -59,6 +59,7 @@ Class: `CharacterCount`
 
 Package `com.ht.streams.strings`
 Class: `FirstNonRepeatedChar`
+
 ---
 
 ## 3. Identify Duplicate Elements in a List
