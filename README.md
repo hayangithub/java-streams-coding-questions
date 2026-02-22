@@ -16,10 +16,7 @@ java-streams-coding-questions/
 ├── src/java/com/ht/streams
 │   ├── strings/
 │   ├── lists/
-│   ├── maps/
-│   ├── objects/
-│   └── advanced/
-│
+│   └── objects/
 ├── README.md
 └── pom.xml
 ```
@@ -44,6 +41,7 @@ Each package contains:
 **Use Case:** Frequency analysis, text processing.
 
 **Location:**
+
 Package `com.ht.streams.strings`
 Class: `CharacterCount`
 ---
