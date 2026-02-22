@@ -44,6 +44,7 @@ Each package contains:
 
 Package `com.ht.streams.strings`
 Class: `CharacterCount`
+
 ---
 
 ## 2. Find the First Non-Repeated Character in a String
