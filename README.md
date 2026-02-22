@@ -181,8 +181,9 @@ Class: `ReverseStringStream`
 
 **Location:**
 
-Package `com.ht.streams.lists`  
+Package `com.ht.streams.lists`
 Class: `SecondHighestNumber`
+
 ---
 
 ## 12. Check if Two Strings Are Anagrams Using Streams
@@ -210,6 +211,7 @@ Class: `AnagramCheck`
 
 Package `com.ht.streams.objects`  
 Class: `GroupByDepartment`
+
 ---
 
 ## 14. Partition a List into Even and Odd Numbers
@@ -222,6 +224,7 @@ Class: `GroupByDepartment`
 
 Package `com.ht.streams.lists`  
 Class: `PartitionList`
+
 ---
 
 ## 15. Find the Longest String in a List
@@ -234,6 +237,7 @@ Class: `PartitionList`
 
 Package `com.ht.streams.lists`  
 Class: `LongestStringList`
+
 ---
 
 ## 16. Check if All Elements Match a Condition
@@ -246,6 +250,7 @@ Class: `LongestStringList`
 
 Package `com.ht.streams.lists`  
 Class: `AllMatchCondition`
+
 ---
 
 ## 17. Find Any / First Element from a Stream
@@ -258,6 +263,7 @@ Class: `AllMatchCondition`
 
 Package `com.ht.streams.lists`  
 Class: `FindFirstAndAny`
+
 ---
 
 ## 18. Convert a Stream Back to List or Set
@@ -270,6 +276,7 @@ Class: `FindFirstAndAny`
 
 Package `com.ht.streams.lists`  
 Class: `CollectToListOrSet`
+
 ---
 
 ## 19. Join a List of Strings Using a Delimiter
@@ -293,6 +300,7 @@ Class: `JoinToString`
 
 Package: `com.ht.streams.lists`
 Class: `FlattenListUsingFlatMap`
+
 ---
 
 # 🎯 Why Learn These Problems?
